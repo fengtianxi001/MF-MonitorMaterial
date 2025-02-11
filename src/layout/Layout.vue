@@ -41,9 +41,8 @@ import LayoutActions from './LayoutActions.vue'
     box-sizing: border-box;
     height: calc(100% - 50px);
     padding: 20px;
+    overflow-y: auto;
     background-color: var(--color-neutral-2);
-
-    // background-image: url('@/assets/images/pattern_light.svg');
     background-size: auto 100%;
   }
 }

@@ -1,6 +1,11 @@
-<template>src/pages/chart/index.vue</template>
-<script setup lang="ts">
-// interface PropsType {}
-// const props = defineProps<PropsType>()
-</script>
-<!-- <style lang="scss" scoped></style> -->
+<template>
+  <iframe ref="container" class="container" src="https://ppchart.com/#/" />
+</template>
+<script setup lang="ts"></script>
+<style lang="scss" scoped>
+.container {
+  width: 100%;
+  height: calc(100% - 4px);
+  border: none;
+}
+</style>

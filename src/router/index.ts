@@ -17,21 +17,21 @@ export const routes: any[] = [
   {
     path: '/chart',
     name: 'chart',
-    meta: { title: '图标素材' },
+    meta: { title: '图表素材' },
     component: () => import('@/pages/chart/index.vue'),
   },
-  {
-    path: '/fonts',
-    name: 'fonts',
-    meta: { title: '字体素材' },
-    component: () => import('@/pages/title/index.vue'),
-  },
-  {
-    path: '/bgi',
-    name: 'bgi',
-    meta: { title: '背景素材' },
-    component: () => import('@/pages/border/index.vue'),
-  },
+  // {
+  //   path: '/fonts',
+  //   name: 'fonts',
+  //   meta: { title: '字体素材' },
+  //   component: () => import('@/pages/title/index.vue'),
+  // },
+  // {
+  //   path: '/bgi',
+  //   name: 'bgi',
+  //   meta: { title: '背景素材' },
+  //   component: () => import('@/pages/border/index.vue'),
+  // },
 ]
 
 export const router = createRouter({
