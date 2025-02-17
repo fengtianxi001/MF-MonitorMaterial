@@ -1,36 +1,22 @@
 <template>
-  <div class="wrap" ref="wrap">
-    <div class="header" ref="container">
-      <div class="header-left">
-        <span>
-          【公告】优秀的创意设计师，丰厚的奖金和奖品等你来拿哦，赶快来参加吧
-        </span>
-      </div>
-      <div class="header-midden">01应急保障数据监测中心</div>
-      <div class="header-right">
-        <span>09:35:00</span>
-        <span>2019-10-19</span>
-        <span>Monday</span>
-        <span>cloudy</span>
-        <span>13°c</span>
-      </div>
+  <div class="header">
+    <div class="header-left">
+      <span>
+        【公告】优秀的创意设计师，丰厚的奖金和奖品等你来拿哦，赶快来参加吧
+      </span>
+    </div>
+    <div class="header-midden">01应急保障数据监测中心</div>
+    <div class="header-right">
+      <span>09:35:00</span>
+      <span>2019-10-19</span>
+      <span>Monday</span>
+      <span>cloudy</span>
+      <span>13°c</span>
     </div>
   </div>
 </template>
-<script setup lang="ts">
-import { useAutofit } from '@/hooks'
-
-const { container, wrap } = useAutofit()
-</script>
+<script setup lang="ts"></script>
 <style lang="scss" scoped>
-.wrap {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
 .header {
   position: absolute;
   display: flex;
@@ -38,7 +24,7 @@ const { container, wrap } = useAutofit()
   justify-content: center;
   width: 100vw;
   height: 50px;
-  background-image: url(./bgi.png);
+  background-image: url(/materials/titles/title01.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   .header-left {

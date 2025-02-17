@@ -11,13 +11,13 @@
 <script setup lang="ts"></script>
 <style lang="scss" scoped>
 .header {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 65px;
-  background-image: url(./bgi.png);
+  background-image: url(/materials/titles/title02.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   .header-left {

@@ -6,7 +6,7 @@ export function useAutofit() {
   //     normal: [1920, 1080],
   //     small: [1280, 720],
   //   }
-  const container = ref<HTMLElement | null>(null)
+  const container = ref<any>(null)
   const wrap = ref<HTMLElement | null>(null)
 
   onMounted(() => {
@@ -19,7 +19,7 @@ export function useAutofit() {
     // console.log('screenWidth', screenWidth)
     // console.log('elWdith', elWdith)
 
-    container.value!.style.transform = `scale(${elWdith / screenWidth})`
+    container.value!.$el!.style.transform = `scale(${elWdith / screenWidth})`
   })
   return {
     container,

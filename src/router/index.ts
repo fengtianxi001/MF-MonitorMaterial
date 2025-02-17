@@ -8,12 +8,12 @@ export const routes: any[] = [
     meta: { title: '标题素材' },
     component: () => import('@/pages/title/index.vue'),
   },
-  {
-    path: '/border',
-    name: 'border',
-    meta: { title: '边框素材' },
-    component: () => import('@/pages/border/index.vue'),
-  },
+  // {
+  //   path: '/border',
+  //   name: 'border',
+  //   meta: { title: '边框素材' },
+  //   component: () => import('@/pages/border/index.vue'),
+  // },
   {
     path: '/chart',
     name: 'chart',

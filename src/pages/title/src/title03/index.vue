@@ -38,6 +38,8 @@
 <script setup lang="ts"></script>
 <style lang="scss" scoped>
 .header {
+  position: absolute;
+  width: 100vw;
   .header-main {
     position: relative;
     display: flex;
@@ -45,7 +47,7 @@
     justify-content: center;
     width: 100%;
     height: 80px;
-    background-image: url(./bgi.png);
+    background-image: url(/materials/titles/title03.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -98,7 +100,7 @@
     color: #fff;
     .header-item {
       padding: 10px 30px;
-      background-image: url(./item_normal.png);
+      background-image: url(/materials/titles/title03_item_normal.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100% 100%;
