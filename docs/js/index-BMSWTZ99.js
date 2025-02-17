@@ -1,0 +1,1 @@
+import{_ as c}from"./index-Div1xWFI.js";import{a as e,o as t}from"./vendor-DkkpKrF6.js";const o={},r={ref:"container",class:"container",src:"https://ppchart.com/#/"};function n(a,s){return t(),e("iframe",r,null,512)}const i=c(o,[["render",n],["__scopeId","data-v-c7f0d936"]]);export{i as default};

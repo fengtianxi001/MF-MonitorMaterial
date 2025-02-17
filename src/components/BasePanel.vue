@@ -35,6 +35,7 @@ const { container, wrap } = useAutofit()
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    color: var(--color-text-2);
   }
 }
 </style>

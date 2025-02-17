@@ -12,7 +12,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const isDark = ref(false)
+const isDark = ref(true)
 
 const methods = {
   onTheme(event: MouseEvent) {
